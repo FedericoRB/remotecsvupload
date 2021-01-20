@@ -20,10 +20,10 @@ let csvStream = csv
     resData.shift();
 
     const con = mysql.createConnection({
-      host: "sql10.freemysqlhosting.net",
-      user: "sql10356021",
-      password: "8lcW31WYPy",
-      database: "sql10356021",
+      host: "host",
+      user: "user",
+      password: "password",
+      database: "database",
     });
 
     con.connect((error) => {
